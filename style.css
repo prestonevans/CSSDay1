@@ -73,7 +73,6 @@ video {
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: transparent;
 	box-sizing: border-box;
 }
 
@@ -124,11 +123,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-input,
-select {
-	vertical-align: middle;
+p {
+	color: #e9b8e4;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: -1px -12px 17px #af87ab;
 }
+
+body {
+	background-image: url('images/photo-1629872874038-b1d600221640.jpeg');
+	background-color: black;
+	background-size: cover;
+}
+
 h1 {
-	color: red;
+	font-size: 5em;
+	color: white;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: .3s ease-in;
+	text-align: center;
+}
+
+h1:hover {
+	transform: scale(1.1);
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
